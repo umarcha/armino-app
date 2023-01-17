@@ -1,0 +1,60 @@
+@media (min-width: 750px) {
+  .menubtn {
+    margin-top: 20px;
+    display: none;
+    top: 0;
+  }
+  .bigmenu {
+    margin-top: 10px;
+    right: 10px;
+  }
+  .login_form {
+    max-width: 300px;
+  }
+  .login_form_forgot {
+    float: right;
+  }
+  .login_form_button {
+    width: 100%;
+  }
+  .main {
+    padding: 0px 100px;
+  }
+  .form_container {
+    padding: 100px;
+  }
+  /* .main_div {
+    float: "left";
+    width: "220px";
+    height: "31px";
+    background: "rgba(255, 255, 255, 0.3)";
+  } */
+}
+
+@media (max-width: 750px) {
+  .bigmenu {
+    margin-top: 10px;
+    display: none;
+  }
+  .menubtn {
+    position: absolute;
+    margin-top: 20px;
+    right: 20px;
+    top: 0;
+  }
+  .login_form {
+    max-width: 300px;
+  }
+  .login_form_forgot {
+    float: right;
+  }
+  .login_form_button {
+    width: 100%;
+  }
+  .main {
+    padding: 0px 10px;
+  }
+  .form_container {
+    padding: 10px;
+  }
+}
